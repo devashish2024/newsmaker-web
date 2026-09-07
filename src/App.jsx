@@ -5,8 +5,8 @@ import PaperDialog from './components/PaperDialog'
 import QuizSection from './components/QuizSection'
 import ThoughtSection from './components/ThoughtSection'
 
-const DATA_URL = 'https://news.ashish.top/data/today'
-const NEWSPAPER_PDF_URL = 'https://news.ashish.top/newspaper/today.pdf'
+const DATA_URL = 'https://news-api.ashish.top/data/today'
+const NEWSPAPER_PDF_URL = 'https://news-api.ashish.top/newspaper/today.pdf'
 
 export default function App() {
   const [data, setData] = useState(null)
